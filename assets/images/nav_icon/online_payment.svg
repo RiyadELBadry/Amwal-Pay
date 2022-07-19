@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.968" y1="1.137" x2="0.989" y2="0.389" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f63cd1"/>
+      <stop offset="0.492" stop-color="#f63cd1"/>
+      <stop offset="1" stop-color="#7f22ff"/>
+    </linearGradient>
+  </defs>
+  <g id="online_payment" transform="translate(-411.134 -97.134)">
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="26" height="26" transform="translate(411.134 97.134)" fill="#fff"/>
+    <path id="Path_1236" data-name="Path 1236" d="M5.913,16.5a.834.834,0,0,1-.61-.232.788.788,0,0,1-.237-.587v-1.6a.784.784,0,0,1,.237-.592.844.844,0,0,1,.61-.228H8.026a.84.84,0,0,1,.615.228.792.792,0,0,1,.232.592v1.6a.8.8,0,0,1-.232.587.831.831,0,0,1-.615.232ZM2.354,9.909V7.924H22.675V9.909Zm2.777,9.3H19.9a2.836,2.836,0,0,0,2.08-.692,2.768,2.768,0,0,0,.7-2.049V7.141a2.768,2.768,0,0,0-.7-2.049A2.836,2.836,0,0,0,19.9,4.4H5.13a2.85,2.85,0,0,0-2.076.687,2.754,2.754,0,0,0-.7,2.053v9.332a2.754,2.754,0,0,0,.7,2.053A2.85,2.85,0,0,0,5.13,19.213Z" transform="translate(411.619 98.05)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
