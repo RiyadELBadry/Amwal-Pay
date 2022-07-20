@@ -1,0 +1,72 @@
+/* Start Home */
+.home {
+    background-image: url(../../../../images/vpos_solution_image.jpg);
+    background-position: top;
+    background-size: cover;
+    color: var(--white);
+}
+
+.home h1 {
+    color: var(--purple);
+}
+
+.home p {
+    max-width: 440px;
+    color: var(--black);
+}
+
+.home p span {
+    font-weight: bold;
+}
+/* End Home */
+
+
+/* Start Vpos */
+.vpos {
+    background-color: var(--purple);
+    background-image: url(../../../../images/icon.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vpos .text h1 {
+    font-size: 35px;
+    color: var(--white);
+}
+
+.vpos .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 80px;
+    justify-items: center;
+}
+
+.vpos .box h1 {
+    color: var(--yellow);
+    font-size: 25px;
+    margin-top: 30px;
+}
+/* End Vpos */
+
+@media (max-width: 991px) {
+    .home {
+        text-align: center;
+    }
+    .home h1 {
+        font-size: 23px;
+    }
+    .vpos {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+/* End Responsive */

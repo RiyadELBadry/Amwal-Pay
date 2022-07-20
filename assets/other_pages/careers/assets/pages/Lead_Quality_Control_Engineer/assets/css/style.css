@@ -1,0 +1,96 @@
+body {
+    background-image: url(../../../../../../../images/icon.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #A4A4A4;
+    background-attachment: fixed;
+
+}
+
+/* Start Home */
+.home {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.home .back {
+    font-size: 25px;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home .back i {
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.home h1 {
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--purple);
+    margin-bottom: 0;
+}
+
+.home .experience {
+    color: var(--pink);
+    line-height: 27px;
+    font-size: 20px;
+}
+
+.home p {
+    color: var(--white);
+    margin: 10px 0;
+}
+
+.home .jop_title {
+    margin: 20px 0;
+}
+
+.home ul {
+    margin-top: 30px;
+    color: var(--white);
+}
+
+.home li {
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.home ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+}
+
+.home .btn {
+    width: 269px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* End Home */
+
+#partners {
+    background-color: transparent;
+}
+
+
+@media (max-width: 991px) {
+    .home {
+        text-align: center;
+    }
+    .home ul {
+        text-align: left;
+    }
+    .home ul li {
+        margin-top: 15px;
+    }
+}
+/* End Responsive */
